@@ -33,10 +33,10 @@ const Contact = () => {
             <textarea className='msg' name='message' rows={5} placeholder='Your Message'></textarea>
             <button type='submit' value='Send' className='submitBtn'>Submit</button>
             <div className='links'>
-                <a href='https://www.facebook.com/aneesha.rangan' target='_blank'><img src={FacebookIcon} alt='Facebook' className='link'/></a>
-                <a href='https://twitter.com/AneeshaRangan' target='_blank'><img src={TwitterIcon} alt='Twitter' className='link'/></a>
-                <a href='https://www.instagram.com/aneesharangan/' target='_blank'><img src={InstagramIcon} alt='Instagram' className='link'/></a>
-                <a href='https://github.com/Aneesha51' target='_blank'><img src={Github} alt='Github' className='link'/></a>
+                <a href='https://www.facebook.com/aneesha.rangan' target='_blank' rel="noreferrer"><img src={FacebookIcon} alt='Facebook' className='link'/></a>
+                <a href='https://twitter.com/AneeshaRangan' target='_blank' rel="noreferrer"><img src={TwitterIcon} alt='Twitter' className='link'/></a>
+                <a href='https://www.instagram.com/aneesharangan/' target='_blank' rel="noreferrer"><img src={InstagramIcon} alt='Instagram' className='link'/></a>
+                <a href='https://github.com/Aneesha51' target='_blank' rel="noreferrer"><img src={Github} alt='Github' className='link'/></a>
             </div>
         </form>
    </div>
