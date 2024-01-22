@@ -1,0 +1,43 @@
+.swiper {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+  }
+  
+  .swiper-slide img {
+    display: flex;
+    width: 100%;
+  }
+
+  .workImgs{
+    position: relative;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 50vh;
+    max-width: 65rem;
+  }
+
+  .carouselsImg {
+    object-fit: cover;
+    height: 20rem;
+    margin: 0.5rem;
+  }
+
+  @media screen and (max-width:585px){
+    .carouselsImg{
+      height: 48vw;
+    }
+    
+  }
