@@ -87,3 +87,11 @@
         font-size: 4vw;
     }
 }
+
+@media screen and (max-width:280px) {
+    .skillBarImg {
+        height: 2rem;
+        width: 2rem;
+    }
+
+}
