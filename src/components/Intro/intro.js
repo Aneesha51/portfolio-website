@@ -9,7 +9,7 @@ const Intro = () => {
     return (
        <section id="intro">
         <div className="overlay">
-        <video src={video} autoPlay loop muted/>
+        <video src={video} autoPlay loop muted type="video/mp4"/>
         </div>
         <div className="introContent">
             <span className="greeting">Hello</span>
