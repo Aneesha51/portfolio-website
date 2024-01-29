@@ -1,12 +1,16 @@
 import React from "react";
 import  './intro.css';
 import bg from '../../Assets/bgImage.png';
+import video from '../../Assets/motionBg.mp4';
 import {Link} from 'react-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faBriefcase} from "@fortawesome/free-solid-svg-icons";
 const Intro = () => {
     return (
        <section id="intro">
+        <div className="overlay">
+        <video src={video} autoPlay loop muted/>
+        </div>
         <div className="introContent">
             <span className="greeting">Hello</span>
             <span className="introText"> I'm <span className="introName">Aneesha</span> <br/> Front-end Developer</span>

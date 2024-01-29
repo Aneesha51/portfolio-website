@@ -7,21 +7,38 @@
     position: relative;
 }
 
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .bg {
     position: absolute;
     top: 2rem;
     right: 0;
-    z-index: -1;
+    z-index: 1;
     object-fit: cover;
     height: 82vh;
 }
 
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 1);
+}
+
 .introContent {
+    position: absolute;
     height: 100vh;
     width: 100vw;
     padding: 2rem;
     font-size: 3rem;
     font-weight: 700;
+    z-index: 2;
     display: flex;
     flex-direction: column;
     justify-content: center;
