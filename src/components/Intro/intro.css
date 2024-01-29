@@ -64,6 +64,7 @@
 
    .introContent {
     font-size: 7vw;
+    font-weight: 400;
    }
 
    .greeting {
@@ -75,6 +76,10 @@
     .bg{
      right: -20vw;
      top: -3rem;
+    }
+
+    .introContent{
+        font-weight: 400;
     }
      
  }
